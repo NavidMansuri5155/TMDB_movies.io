@@ -1,0 +1,80 @@
+.navbar {
+    background: linear-gradient(to bottom left, #5d61d1 40%, #13bef7 100%);
+  
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    max-width: 1500px;
+  }
+  
+  .nav-logo {
+    color: #000000;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    flex-grow: 1;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+  }
+  
+  .nav-links {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+  }
+  .fa-code {
+    margin-left: 1rem;
+  }
+  
+  .nav-item {
+    line-height: 40px;
+    margin-right: 1rem;
+  }
+  
+  .nav-item:after {
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .nav-item:hover:after {
+    width: 100%;
+    background: #000000;
+  }
+  
+  .nav-item .active {
+    color: #e2e2e2;
+  }
+  
+  .nav-icon {
+    display: none;
+  }
+  
+  
+  
+.input-group{
+    margin-bottom: 17px;
+}
